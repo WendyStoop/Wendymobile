@@ -1,20 +1,63 @@
-<<<<<<< HEAD
-/*
-ul {
-list-style-type: none;
-display:flex
-}
-.Homebutton {
-    border: solid black ;
+
+
+body{
+    background-color: white;
+
+ }
+ h1{
+     color: green;
+ }
+ h2 {
+     color: blue;
+ }
+p{
+    color: black;
 }
 
-*/
-.navcontainer {
-    background-color: aqua;
-=======
-footer {
+header{
     background-color: darkgreen;
-    display: flex
-    
->>>>>>> Voet
+    height: 100px;
+   
+
+}
+.navcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navcontainer ul{
+    display:flex;
+   
+}
+
+
+.navlist{
+    list-style-type: none;
+    justify-content: space-around;
+    margin-right: 40px;
+    border: solid black 3px;
+    height: 30px;
+    width: 60px;
+    background-color: darkmagenta;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+.navlist:hover{
+    background-color: blue;
+}
+
+.navlist a{
+    color: white;
+    text-decoration: none;
+    padding-top: 20px;
+}
+
+.navlist a:hover{
+    color: black;
+}
+footer{
+    background-color: darkgreen;
+    text-decoration: none;
 }
