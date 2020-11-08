@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*
 ul {
 list-style-type: none;
@@ -10,4 +11,10 @@ display:flex
 */
 .navcontainer {
     background-color: aqua;
+=======
+footer {
+    background-color: darkgreen;
+    display: flex
+    
+>>>>>>> Voet
 }
